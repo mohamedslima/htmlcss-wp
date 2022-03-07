@@ -17,12 +17,15 @@
     border: red 2px solid;
 }
 
+body{
+    font-size: 62.5%;
+    font-family: "Montserrat", sans-serif;
+}
+
 /* container header */
 
 header{
-    background-color: #e57ae5;
     height: 150px;
-    margin-top: 30px;
 }
 
 /* container main yellow */
@@ -51,8 +54,6 @@ header{
 .col-center {
     width: calc(50% - 20px);
     margin: 0 10px; 
-    /* width: 46%;
-    margin: 0 2%; */
 }
 
 .col {
@@ -79,3 +80,27 @@ footer{
     margin: 1em 0 1em;
 }
 
+/* header content */
+
+.logo-header {
+    width: auto;
+    height: 60px;
+    padding-right: 1em;
+    border-right: 1px solid lightgray;
+}
+
+.header-nav li{
+    margin-top: 4em;
+    padding-right: .5em;
+    display: inline-block;
+    color: grey;
+}
+
+.header-nav a {
+    font-size: 1.2em;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: inherit;
+}
+
+/* /header content */
